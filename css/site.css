@@ -25,36 +25,40 @@ body {
 /* line 19, ../css/site.scss */
 .container {
   background: #FFF; }
+  /* line 22, ../css/site.scss */
+  .container.main-content, .container.desktop-header {
+    box-shadow: 0px 4px 10px #CCC; }
 
-/* line 24, ../css/site.scss */
+/* line 28, ../css/site.scss */
 .desktop-header .logo {
   padding-top: 20px;
   text-align: center; }
-/* line 29, ../css/site.scss */
+/* line 33, ../css/site.scss */
 .desktop-header .slogan-1, .desktop-header .slogan-2 {
+  font-weight: 200;
   font-size: 20px;
   vertical-align: middle;
   padding-top: 70px; }
-/* line 35, ../css/site.scss */
+/* line 40, ../css/site.scss */
 .desktop-header .slogan-1 {
   text-align: right; }
-/* line 39, ../css/site.scss */
+/* line 44, ../css/site.scss */
 .desktop-header nav {
   border-top: 2px solid #C3E76A;
   border-bottom: 2px solid #C3E76A;
   margin-top: 45px; }
-  /* line 45, ../css/site.scss */
+  /* line 50, ../css/site.scss */
   .desktop-header nav ul li {
     font-size: 24px; }
-    /* line 47, ../css/site.scss */
+    /* line 52, ../css/site.scss */
     .desktop-header nav ul li a {
       color: #666; }
 
-/* line 55, ../css/site.scss */
+/* line 60, ../css/site.scss */
 .banner {
   background: url(../images/banner_image.png) no-repeat;
   height: 450px; }
-  /* line 59, ../css/site.scss */
+  /* line 64, ../css/site.scss */
   .banner .banner-message {
     background: #FFF;
     opacity: .8;
@@ -64,11 +68,11 @@ body {
     top: 70px;
     left: 65%; }
 
-/* line 70, ../css/site.scss */
+/* line 75, ../css/site.scss */
 .section-title {
   border-top: 2px solid #F2FADF;
   border-bottom: 2px solid #F2FADF; }
-  /* line 74, ../css/site.scss */
+  /* line 79, ../css/site.scss */
   .section-title h2 {
     background: #F2FADF;
     margin-top: 2px;
@@ -77,58 +81,148 @@ body {
     text-align: center;
     font-weight: 200; }
 
-/* line 84, ../css/site.scss */
+/* line 89, ../css/site.scss */
 .content {
   padding: 60px 0; }
-  /* line 87, ../css/site.scss */
+  /* line 92, ../css/site.scss */
   .content p {
     font-size: 18px; }
-  /* line 91, ../css/site.scss */
+  /* line 96, ../css/site.scss */
   .content .padding-left-none {
     padding-left: 0px !important; }
-  /* line 95, ../css/site.scss */
+  /* line 100, ../css/site.scss */
   .content .padding-right-none {
     padding-right: 0px !important; }
-  /* line 99, ../css/site.scss */
+  /* line 104, ../css/site.scss */
   .content ul {
     padding-left: 20px; }
-    /* line 101, ../css/site.scss */
+    /* line 106, ../css/site.scss */
     .content ul li {
       font-size: 16px; }
-  /* line 106, ../css/site.scss */
+  /* line 111, ../css/site.scss */
   .content .high-light {
     color: black; }
 
-/* line 111, ../css/site.scss */
+/* line 116, ../css/site.scss */
+.row.section {
+  margin-bottom: 60px; }
+
+/* line 120, ../css/site.scss */
 footer {
   margin-bottom: 200px; }
-  /* line 114, ../css/site.scss */
+  /* line 123, ../css/site.scss */
   footer .copy-right {
     padding: 20px 0 35px 0;
     border-top: 2px solid #C3E76A; }
-  /* line 119, ../css/site.scss */
+  /* line 128, ../css/site.scss */
   footer .footer-section-title {
     font-size: 24px; }
-  /* line 123, ../css/site.scss */
+  /* line 132, ../css/site.scss */
   footer ul {
     margin-top: 20px;
     padding-left: 0; }
-    /* line 126, ../css/site.scss */
+    /* line 135, ../css/site.scss */
     footer ul li {
       list-style: none;
       font-size: 22px; }
-      /* line 130, ../css/site.scss */
+      /* line 139, ../css/site.scss */
       footer ul li a {
         color: #BAB693; }
 
-/* line 137, ../css/site.scss */
+/* line 146, ../css/site.scss */
 .bold {
   font-weight: bold; }
 
-/* line 141, ../css/site.scss */
+/* line 150, ../css/site.scss */
 address {
   font-size: 18px; }
 
-/* line 145, ../css/site.scss */
+/* line 154, ../css/site.scss */
 .light-background {
   background: #FFFEFB; }
+
+/* line 158, ../css/site.scss */
+h3 {
+  font-weight: normal; }
+
+/* line 162, ../css/site.scss */
+.glyphicon.green {
+  color: #C3E76A; }
+
+/* line 167, ../css/site.scss */
+.month-selector-wrapper ul {
+  padding-left: 0px; }
+  /* line 170, ../css/site.scss */
+  .month-selector-wrapper ul li {
+    list-style: none;
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-right: 5px;
+    padding-top: 3px;
+    cursor: pointer;
+    font-size: 20px; }
+    /* line 180, ../css/site.scss */
+    .month-selector-wrapper ul li div {
+      padding: 10px 20px;
+      display: block;
+      border: 1px solid #C3E76A; }
+    /* line 186, ../css/site.scss */
+    .month-selector-wrapper ul li.active {
+      border-top: 2px solid #C3E76A; }
+      /* line 189, ../css/site.scss */
+      .month-selector-wrapper ul li.active div {
+        background: #C3E76A; }
+
+/* line 197, ../css/site.scss */
+.calendar-wrapper {
+  width: 100%; }
+  /* line 200, ../css/site.scss */
+  .calendar-wrapper table {
+    border: 1px solid #C3E76A; }
+    /* line 203, ../css/site.scss */
+    .calendar-wrapper table tr td, .calendar-wrapper table tr th {
+      padding: 5px;
+      border: 1px solid #C3E76A;
+      width: 14.28%; }
+    /* line 209, ../css/site.scss */
+    .calendar-wrapper table tr td {
+      height: 100px;
+      vertical-align: top;
+      font-size: 11px; }
+      /* line 214, ../css/site.scss */
+      .calendar-wrapper table tr td .inactive {
+        color: #CCC; }
+      /* line 218, ../css/site.scss */
+      .calendar-wrapper table tr td span.date {
+        font-size: 13px;
+        display: block; }
+      /* line 223, ../css/site.scss */
+      .calendar-wrapper table tr td a {
+        display: block;
+        margin-bottom: 3px; }
+        /* line 227, ../css/site.scss */
+        .calendar-wrapper table tr td a .full {
+          display: inline;
+          background: red;
+          color: white;
+          padding: 2px; }
+    /* line 238, ../css/site.scss */
+    .calendar-wrapper table tr.odd td {
+      background: #F2FADF; }
+
+/* line 248, ../css/site.scss */
+table tr td, table tr th {
+  padding: 5px; }
+/* line 254, ../css/site.scss */
+table tr.odd td {
+  background: #F2FADF; }
+
+/* line 262, ../css/site.scss */
+.text-right img {
+  float: right; }
+
+/* line 267, ../css/site.scss */
+img.green-frame {
+  border: 5px solid #F2FADF;
+  padding: 1px; }
