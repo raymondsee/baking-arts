@@ -155,6 +155,18 @@
             "title": "Puff Pastry",
             "desc": "Equal parts butter and flour, quick puff pastry is the most luxurious dough in the kitchen. Each student will create their own batch of quick puff pastry to take home, learning how to incorporate butter and repeatedly fold the dough to make thousands of butter layers, as well as create a rustic French apple or blueberry tart with a shiny glaze and cinnamon sugar crusted palmiers cookies. This is beautiful food that will be the perfect ending to your next dinner party. ",
             "image": "puff2.jpg"
+        },
+        {
+            "id": "cake-dvd-1",
+            "title": "Modeling Chocolate: Wrapped Cakes - Gift Wrapped Presents",
+            "desc": "",
+            "image": "wrapped_cakes_1_dvd_image.png"
+        },
+        {
+            "id": "cake-dvd-2",
+            "title": "Modeling Chocolate: Wrapped Cakes - Extraordinary Stripes",
+            "desc": "",
+            "image": "wrapped_cakes_2_dvd_image.png"
         }
     ]
 }
