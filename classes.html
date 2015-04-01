@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Baking Arts</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/site.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+    <body>
+        <!-- Static navbar -->
+<nav class="navbar navbar-default navbar-static-top visible-xs">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Baking Arts</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="about.html" class="">About Us</a></li>
+          <li><a href="classes.html" class="selected">Classes</a></li>
+          <li><a href="store.html" class="">Retail Store</a></li>
+          <li><a href="books.html" class="">Books & DVD's</a></li>
+          <li><a href="contact.html" class="">Contact Us</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+
+<div class="container desktop-header hidden-xs">
+    <div class="row">
+        <div class="col-sm-4 slogan-1">SUPPLIES & CLASSES</div>
+        <div class="col-sm-4 logo"><a href="index.html"><img src="images/baking_arts_logo.png" alt="Baking Arts" class="" /></a></div>
+        <div class="col-sm-4 slogan-2">SAN MATEO, CALIFORNIA</div>
+    </div>
+
+    <div class="row">
+        <nav class="col-md-12 text-center">
+            <ul class="nav navbar-nav">
+                <li><a href="about.html" class="">About Us</a></li>
+                <li><a href="classes.html" class="selected">Classes</a></li>
+                <li><a href="store.html" class="">Retail Store</a></li>
+                <li><a href="books.html" class="">Books & DVD's</a></li>
+                <li><a href="contact.html" class="">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<div class="container main-content">
+    <div class="row section-title" id="classes-section">
+        <div class="col-sm-12"><h2>Classes</h2></div>
+    </div>
+
+    <div class="row content">
+        <div class="col-md-6">
+            <p>Baking Arts classes are designed to accommodate the novice chef as well as the avid home cook looking to master new techniques.</p>
+            <p>We offer a relaxed, friendly teaching style that encompasses theory, demonstration and full hands-on participation. Classes are designed so that each student completes their own recipes and projects from start to finish to ensure a true learning experience.</p>
+            <p>In addition to our calendar classes, Baking Arts is available for private parties and classes from 1 to 10 people. We also offer gift certificates that make a terrific gift for that special someone.</p>
+        </div>
+        <div class="col-md-6 image-wrapper">
+            <img class="img-responsive" src="images/classes_page_image.png" alt="Baking Arts cooking classes" />
+        </div>
+
+        <div class="col-xs-12">
+            <h3>Class Calendar</h3>
+            <p>Please choose one of the following to view current class schedules:</p>
+        </div>
+
+        <div class="col-md-12">
+            <div class="calendar-wrapper">
+                <div class="month-selector-wrapper">
+                    <ul>
+                        <li class="active" data-target="april"><div>April</span></div>
+                        <li data-target="may"><div>May</div></li>
+                        <li data-target="june"><div>June</div></li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+                <table id="april" width="100%">
+                    <tr>
+                        <th>SUNDAY</th>
+                        <th>MONDAY</th>
+                        <th>TUESDAY</th>
+                        <th>WEDNESDAY</th>
+                        <th>THURSDAY</th>
+                        <th>FRIDAY</th>
+                        <th>SATURDAY</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="date inactive">29</span>
+                        </td>
+                        <td>
+                            <span class="date inactive">30</span>
+                        </td>
+                        <td>
+                            <span class="date inactive">31</span>
+                        </td>
+                        <td>
+                            <span class="date">1</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="cake">One Great Cake 6:30pm ($90)</a>
+                        </td>
+                        <td>
+                            <span class="date">2</span>
+                        </td>
+                        <td>
+                            <span class="date">3</span>
+                        </td>
+                        <td>
+                            <span class="date">4</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="chocolate-1">Chocolate 1 1030am($85)</a>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="cookie">Cookie Workshop 2-5pm($125)</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="date">5</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="cookie">Cookie Dec 230pm($85)</a>
+                        </td>
+                        <td>
+                            <span class="date">6</span>
+                        </td>
+                        <td>
+                            <span class="date">7</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="fondant">Intro to Fondant 0pm($90)</a>
+                        </td>
+                        <td>
+                            <span class="date">8</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="kouign-amman">Kouign Amman 1030am($85)</a>
+                        </td>
+                        <td>
+                            <span class="date">9</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="coffee-cake">Coffee Cakes 1030am($90)</a>
+                        </td>
+                        <td>
+                            <span class="date">10</span>
+                        </td>
+                        <td>
+                            <span class="date">11</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="buttercream">Buttercream Weekend Miso Bakes 10-4 $545 Day 1</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="date">12</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="buttercream">Buttercream Weekend Day 2 10-4</a>
+                        </td>
+                        <td>
+                            <span class="date">13</span>
+                        </td>
+                        <td>
+                            <span class="date">14</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="bread">Intro to Bread 6:30pm($90)</a>
+                        </td>
+                        <td>
+                            <span class="date">15</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="macaroons">French Macaroon 630pm($90)</a>
+                        </td>
+                        <td>
+                            <span class="date">16</span>
+                        </td>
+                        <td>
+                            <span class="date">17</span>
+                        </td>
+                        <td>
+                            <span class="date">18</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="buttercream">Buttercream Weekend Miso Bakes 10-4 <sapn class="full">Full</span></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="date">19</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="buttercream">Buttercream Weekend Day 2 10-4</a>
+                        </td>
+                        <td>
+                            <span class="date">20</span>
+                        </td>
+                        <td>
+                            <span class="date">21</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="pie">Pies/Pie Dough 630pm($90)</a>
+                        </td>
+                        <td>
+                            <span class="date">22</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="biscuits-scones" >Biscuits and Scones 630am($80)</a>
+                        </td>
+                        <td>
+                            <span class="date">23</span>
+                        </td>
+                        <td>
+                            <span class="date">24</span>
+                        </td>
+                        <td>
+                            <span class="date">25</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="souffles">Souffles 1030am($90)</a>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="macaroons">French Macaroon 2pm($90)</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="date">26</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="macaroons">French Macaroon 1030am($90)</a>
+                            <a href="#">Private Class 3-5pm</a>
+                        </td>
+                        <td>
+                            <span class="date">27</span>
+                        </td>
+                        <td>
+                            <span class="date">28</span>
+                        </td>
+                        <td>
+                            <span class="date">29</span>
+                        </td>
+                        <td>
+                            <span class="date">30</span>
+                        </td>
+                        <td>
+                            <span class="inactive date">1</span>
+                        </td>
+                        <td>
+                            <span class="inactive date">2</span>
+                        </td>
+                    </tr>
+                </table>
+
+                <table id="may" width="100%" style="display: none;">
+                    <tr>
+                        <th>SUNDAY</th>
+                        <th>MONDAY</th>
+                        <th>TUESDAY</th>
+                        <th>WEDNESDAY</th>
+                        <th>THURSDAY</th>
+                        <th>FRIDAY</th>
+                        <th>SATURDAY</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="date inactive">26</span>
+                        </td>
+                        <td>
+                            <span class="date inactive">27</span>
+                        </td>
+                        <td>
+                            <span class="date inactive">28</span>
+                        </td>
+                        <td>
+                            <span class="date inactive">29</span>
+                        </td>
+                        <td>
+                            <span class="date inactive">30</span>
+                            <span>Vacation</span>
+                        </td>
+                        <td>
+                            <span class="date">1</span>
+                        </td>
+                        <td>
+                            <span class="date">2</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="wedding-cake">Wedding Cake Weekend 9-5pm($495)</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="date">3</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="wedding-cake">Wedding Cake Weekend Day 2 10-4</a>
+                        </td>
+                        <td>
+                            <span class="date">4</span>
+                        </td>
+                        <td>
+                            <span class="date">5</span>
+                        </td>
+                        <td>
+                            <span class="date">6</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="cake">One Great Cake 6:30pm($90)</a>
+                        </td>
+                        <td>
+                            <span class="date">7</span>
+                        </td>
+                        <td>
+                            <span class="date">8</span>
+                        </td>
+                        <td>
+                            <span class="date">9</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="biscuits-scones">Teen Biscuit/Scone 1030am($80)</a>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="croissant">Croissants 2:30pm($90)</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="date">10</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="cookie">Cookie Workshop 1:30pm($125)</a>
+                        </td>
+                        <td>
+                            <span class="date">11</span>
+                        </td>
+                        <td>
+                            <span class="date">12</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="macaroons">French Macaroon 6:30pm($90)</a>
+                        </td>
+                        <td>
+                            <span class="date">13</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="bread">Intro to Bread 6:30pm($90)</a>
+                        </td>
+                        <td>
+                            <span class="date">14</span>
+                        </td>
+                        <td>
+                            <span class="date">15</span>
+                        </td>
+                        <td>
+                            <span class="date">16</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="macaroons">French Macaroon 1030am($90)</a>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="macaroons">French Macaroon 2:30pm($90)</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="date">17</span>
+                        </td>
+                        <td>
+                            <span class="date">18</span>
+                        </td>
+                        <td>
+                            <span class="date">19</span>
+                        </td>
+                        <td>
+                            <span class="date">20</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="pretty-cupcakes">Pretty Cupcakes 630pm($90)</a>
+                        </td>
+                        <td>
+                            <span class="date">21</span>
+                        </td>
+                        <td>
+                            <span class="date">22</span>
+                        </td>
+                        <td>
+                            <span class="date">23</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="pretty-cupcakes">Quick Puff Pastry 1030am($80)</a>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="danish">Danish Pastry 230pm($85)</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="date">24</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="kouign-amman">Kouign Amman 1030am($85)</a>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="bagels">Bagels/Soft Pretzel 230pm($80)</a>
+                        </td>
+                        <td>
+                            <span class="date">25</span>
+                        </td>
+                        <td>
+                            <span class="date">26</span>
+                        </td>
+                        <td>
+                            <span class="date">27</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="croissant">Morning Class Croissants 1030am($90)</a>
+                        </td>
+                        <td>
+                            <span class="date">28</span>
+                        </td>
+                        <td>
+                            <span class="date">29</span>
+                        </td>
+                        <td>
+                            <span class="date">30</span>
+                            <a href="#" data-toggle="modal" data-target="#class-modal" data-class="ganached-cakes">Intro to Ganached Cakes 9-5pm($265)</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="date">31</span>
+                        </td>
+                        <td>
+                            <span class="inactive date">1</span>
+                        </td>
+                        <td>
+                            <span class="inactive date">2</span>
+                        </td>
+                        <td>
+                            <span class="inactive date">3</span>
+                        </td>
+                        <td>
+                            <span class="inactive date">4</span>
+                        </td>
+                        <td>
+                            <span class="inactive date">5</span>
+                        </td>
+                        <td>
+                            <span class="inactive date">6</span>
+                        </td>
+                    </tr>
+                </table>
+
+                <table id="june" width="100%" style="display: none;">
+                    <tr>
+                        <th>SUNDAY</th>
+                        <th>MONDAY</th>
+                        <th>TUESDAY</th>
+                        <th>WEDNESDAY</th>
+                        <th>THURSDAY</th>
+                        <th>FRIDAY</th>
+                        <th>SATURDAY</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="date inactive">31</span>
+                        </td>
+                        <td>
+                            <span class="date">1</span>
+                        </td>
+                        <td>
+                            <span class="date">2</span>
+                        </td>
+                        <td>
+                            <span class="date">3</span>
+                        </td>
+                        <td>
+                            <span class="date">4</span>
+                        </td>
+                        <td>
+                            <span class="date">5</span>
+                        </td>
+                        <td>
+                            <span class="date">6</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="date">7</span>
+                        </td>
+                        <td>
+                            <span class="date">8</span>
+                        </td>
+                        <td>
+                            <span class="date">9</span>
+                        </td>
+                        <td>
+                            <span class="date">10</span>
+                        </td>
+                        <td>
+                            <span class="date">11</span>
+                        </td>
+                        <td>
+                            <span class="date">12</span>
+                        </td>
+                        <td>
+                            <span class="date">13</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="date">14</span>
+                        </td>
+                        <td>
+                            <span class="date">15</span>
+                        </td>
+                        <td>
+                            <span class="date">16</span>
+                        </td>
+                        <td>
+                            <span class="date">17</span>
+                        </td>
+                        <td>
+                            <span class="date">18</span>
+                        </td>
+                        <td>
+                            <span class="date">19</span>
+                        </td>
+                        <td>
+                            <span class="date">20</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="date">21</span>
+                        </td>
+                        <td>
+                            <span class="date">22</span>
+                        </td>
+                        <td>
+                            <span class="date">23</span>
+                        </td>
+                        <td>
+                            <span class="date">24</span>
+                        </td>
+                        <td>
+                            <span class="date">25</span>
+                        </td>
+                        <td>
+                            <span class="date">26</span>
+                        </td>
+                        <td>
+                            <span class="date">27</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="date">28</span>
+                        </td>
+                        <td>
+                            <span class="date">29</span>
+                        </td>
+                        <td>
+                            <span class="date">30</span>
+                        </td>
+                        <td>
+                            <span class="inactive date">1</span>
+                        </td>
+                        <td>
+                            <span class="inactive date">2</span>
+                        </td>
+                        <td>
+                            <span class="inactive date">3</span>
+                        </td>
+                        <td>
+                            <span class="inactive date">4</span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <p><a href="#" data-toggle="modal" data-target="#gift-certificates">Gift Certificates</a></p>
+    <p><a href="#" data-toggle="modal" data-target="#how-to-register">How to Register</a></p>
+    <p><a href="#" data-toggle="modal" data-target="#policies">Policies</a></p>
+
+    <footer>
+    <div class="row">
+        <div class="col-md-12 copy-right">
+            <div>&copy; 2015 Baking Arts. All Rights Reserved.</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <span class="footer-section-title">Connect with us</span>
+            <ul>
+                <li><a href="https://www.facebook.com/pages/Baking-Arts/168366626508728" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/bakingarts" target="_blank">Twitter</a></li>
+                <li><a href="https://instagram.com/bakingartscookingschool" target="_blank">Instagram</a></li>
+                <!--<li><a href="#" target="_blank">Pinterest</a></li>-->
+                <li><a href="http://www.yelp.com/biz/baking-arts-san-mateo-2" target="_blank">Yelp</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-4">
+            <span class="footer-section-title">Supplies</span>
+            <ul>
+                <li><a href="classes.html">Gift Certficates</a></li>
+                <li><a href="books.html">Books & DVD's</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="gift-certificates" tabindex="-1" role="dialog" aria-labelledby="policy-title" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="policy-title">Gift Certificates</h4>
+            </div>
+            <div class="modal-body">
+                <h3>Gift Certificates</h3>
+                <p>Gift certificates, sent with a personal message, are available and are perfect for birthdays, showers, weddings or that special someone.</p>
+                <p>Place your order on-line below or contact us for last minute emailed certifcates. </p>
+
+
+                <form method="post" action="https://www.paypal.com/cgi-bin/webscr" target="paypal">
+                    <input type="hidden" value="_s-xclick" name="cmd">
+                    <input type="hidden" value="2BD7AB6HYWBRU" name="hosted_button_id">
+                    <input type="hidden" value="Baking Arts Gift Certificate" name="on0">
+                    <div class="form-group">
+                        <label for="certificate">Baking Arts Gift Certificates</label>
+                        <select id="certificate" name="os0" class="form-control" style="width:280px;">
+                            <option value="$80 Gift Certificate">$80 Gift Certificate $80.00 USD</option>
+                            <option value="$90 Gift Certificate">$90 Gift Certificate $90.00 USD</option>
+                            <option value="$100 Gift Certificate">$100 Gift Certificate $100.00 USD</option>
+                            <option value="$150 Gift Certificate">$150 Gift Certificate $150.00 USD</option>
+                            <option value="$200 Gift Certificate">$200 Gift Certificate $200.00 USD</option>
+                            <option value="$300 Gift Certificate">$300 Gift Certificate $300.00 USD</option>
+                        </select>
+                    </div>
+                    <input type="hidden" value="USD" name="currency_code">
+                    <input type="image" border="0" alt="PayPal - The safer, easier way to pay online!" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif">
+                    <img width="1" border="0" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" alt="">
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="how-to-register" tabindex="-1" role="dialog" aria-labelledby="register-title" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="register-title">How to Register</h4>
+            </div>
+            <div class="modal-body">
+                <p>To register for a class you can enroll on line through our class calendar or call 415 706-7112. </p>
+                <h4>Calendar Classes</h4>
+                <p>Calendar classes are scheduled throughout the year and are limited to a maximum of eight students. 
+                Please see our calendar for a list of scheduled group classes. The calendar is routinely updated, 
+                so please check back for newly scheduled classes.</p>
+
+                <h4>Private Classes</h4>
+                <p>Private classes may be scheduled any day of the week. The classes are conducted one on one with 
+                the pastry chef, or you may book the class with one or more other students. Class pricing is based 
+                on the number of students below. Saturday and Sunday private class bookings require a minumum of 5 people. 
+                All food, materials and handouts are included in the cost of the class. Some select classes may have an 
+                additional fee based on materials and length of class.</p>
+
+                <table width="317" cellspacing="0" cellpadding="2">
+                    <tbody>
+                        <tr>
+                            <th># of Students</th>
+                            <th>Cost per Student</th>
+                        </tr>
+                        <tr class="odd">
+                          <td>1 Person</td>
+                          <td>$250</td>
+                        </tr>
+                        <tr>
+                          <td>2 People</td>
+                          <td>$145</td>
+                        </tr>
+                        <tr class="odd">
+                          <td>3 People</td>
+                          <td>$125</td>
+                        </tr>
+                        <tr>
+                          <td>4 People</td>
+                          <td>$100</td>
+                        </tr>
+                        <tr class="odd">
+                          <td>Larger Groups</td>
+                          <td>Call for a quote</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="policies" tabindex="-1" role="dialog" aria-labelledby="policy-title" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="policy-title">Policies</h4>
+            </div>
+            <div class="modal-body">
+                <h4>Payment</h4>
+                <p>We accept VISA or Mastercard for all class bookings.</p>
+
+                <h4>Cancellations and Refunds</h4>
+                <p>Refunds will be issued for any class cancelled with 10 (ten) or more days notice prior to class date.</p>
+
+                <p>No refunds or credits will be given for classes cancelled with less than 10 (ten) days notice or for no shows. If you are unable to make a class, consider letting a friend attend in your absence.</p>
+
+                <p>We appreciate your understanding there are no exceptions to our cancellation and refund policy at any time or for any reason. Please do not call us to ask for an exception to our policy.</p>
+
+                <p>Baking Arts may cancel any class due to low enrollment. You will be contacted and a full refund made.</p>
+
+                <h4>Availability</h4>
+                <p>We reserve the right to substitute ingredients based on seasonality and available quality. </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="class-modal" tabindex="-1" role="dialog" aria-labelledby="classes-title" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="classes-title">Class Information</h4>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-md-5 image-wrapper"><i class="fa fa-file-image-o fa-5x"></i></div>
+                      <div class="col-md-7 desc-wrapper">Oops! Classes description is not available, please call us or check back soon.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="modal-footer">
+                <a href="https://clients.mindbodyonline.com/classic/home?studioid=25228" target="_blank" class="btn btn-success">Enroll</a>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jssor.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.js"></script>
+    <script src="js/baking.arts.js"></script>
+</html>

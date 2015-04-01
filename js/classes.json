@@ -1,0 +1,172 @@
+{
+    "classes": [
+        {
+            "id": "chocolate-1",
+            "title": "Chocolate 1 Hand Rolled and Piped Truffles",
+            "desc": "A fully hands-on introductory course on tempering chocolate and making ganache, you'll create a variety of hand rolled truffles. We'll take you through all the steps from the creation of smooth, emulsified cream ganache, tempering chocolate, hand dipping and the proper handling techniques to create professional looking truffles. While we have some tempered chocolate on hand, we'll dip some cookies and demo how to make chocolate bark you can customize for any holiday or occasion. Take your truffles and other finished treats with you at the end of class.",
+            "image": "chocolate1.jpg"
+        },
+        {
+            "id": "cookie",
+            "title": "Cookie Dough Workshop",
+            "desc": "Our cookie dough workshop is an intensive three hour class covering the essentials of ingredient selection, proper measuring and weighing of ingredients, mixing techniques, and a variety of methods for portioning, shaping, rolling and baking to give you cookies that look as good as they taste. Each student will make from scratch our Inch Thick Chocolate Chip Cookies, Callebaut Extra Brute Cocoa Sable with Pecans and Sea Salt and our favorite Lemon Scented Shortbread Cookies with a sticky drizzle. We'll send you home with baked cookies as well as three cookie doughs to bake off at home.",
+            "image": "cookiedough.jpg"
+        },
+        {
+            "id": "cake",
+            "title": "One Great Cake",
+            "desc": "This is the cake you can take to any dinner party. Designed for the beginning cake decorator, students will learn the basic techniques to neatly fill and frost a cake then finish with a clean, modern design. Create a cake with straight sides, flat tops and perfectly smooth buttercream all around (no crumbs!). Richard will also give a start to finish demonstration on how to make Swiss Meringue buttercream. Take your cake home with you at the end of class.",
+            "image": ""
+        },
+        {
+            "id": "cookie-2",
+            "title": "Special Occassion Cookie Decorating",
+            "desc": "From colorful whimsey to simply elegant, you'll learn how to create those gorgeous cookies just like in the magazines. We'll cover piping, color flow, gilding and other techniques in class. Our cookies designs change with the season and include all the holidays as well as birthday, baby shower and wedding designs. This class is another great one to take with a group of friends.",
+            "image": "popup-cookies.jpg"
+        },
+        {
+            "id": "fondant",
+            "title": "Introduction to Fondant",
+            "desc": "A beginners class for working with fondant, you'll prep and cover a real cake with fondant during this class and learn all the basics on coloring fondant, making cutouts, as well as create an adorable teddybear figurine cake topper. Our whimsical design can be customized to nearly any type of celebration. You'll gain the confidence and skill to create fondant covered cakes on your own. Take your completed cake home with you at the end of class.",
+            "image": ""
+        },
+        {
+            "id": "kouign-amman",
+            "title": "Kouign Amman",
+            "desc": "If you have ever had one of these treats, then you know. You know. Butter, sugar and flour come together to make one of the most decadent pastries in our recipe book. Crispy and caramelized on the outside with a delicate sweet and buttery center. Students will make dough from scratch and learn to roll, form and bake these pastries in class. Take your finished dough home with you to make kouign amman for family and friends.",
+            "image": "kouign.jpg"
+        },
+        {
+            "id": "coffee-cake",
+            "title": "From Scratch: Brioche Style Coffee Cakes",
+            "desc": "This class is about the experience of baking. We're moving from the one bowl recipes onto something a bit more involved, more rewarding and creating a product that will rival any San Francisco bakery. Students will make our tender, buttery brioche dough from scratch, make our delicious butter-pecan filling along with a cinnamon streusel topping and learn proper rolling, forming and baking techniques. Each student will leave with a brioche coffee cake to bake off at home. We'll also demo our favorite cinnamon-chocolate stuffed Babka. This is the type of food you will be proud to serve to family and friend. Rich, complex and delicious, yet quite achievable for the home baker.",
+            "image": "brioche.jpg"
+        },
+        {
+            "id": "buttercream",
+            "title": "Buttercream Weekend with Miso of Miso Bakes",
+            "desc": "A two day class with Miso of Miso Bakes. Over two days, students will make Swiss buttercream and learn to tort, fill and smoothly cover a cake. Following, students will be guided on how to tint buttercream to give a fresh and modern look to your piped flowers. Rose, ruffled rose, English rose, blossoms, anemone, Ranunculus, Chrysanthemum, filler flowers and leaves will all be covered. On the last day, Miso will show you how to effectively arrange your flowers to complete you cake. All materials, lunch and refreshments included.",
+            "image": "miso.jpg"
+        },
+        {
+            "id": "pie",
+            "title": "Pies and Pie Dough",
+            "desc": "One of our favorite classes, we will teach you to make delicious pies with flaky crusts and delicate fruit fillings. After the demonstration, every student in this class makes their own pie dough from scratch, then completes and takes home their own freshly made double crust fresh fruit pie. Come join us to learn a skill that will last you a lifetime.",
+            "image": "smallpiepic.jpg"
+        },
+        {
+            "id": "biscuits-scones",
+            "title": "Biscuits and Scones",
+            "desc": "We think our scone recipe is just the best. Rich with butter and cream, you can customize your scones in class just the way you like...cinnamon, walnut, raisin? Orange, cranberry, almond? Lemon blueberry? You decide. Oh...and the buttermilk biscuits...come hungry! We'll have plenty of butter and jam on hand to devour these fresh baked goodies. Only minutes to prepare and bake, Sunday mornings just got a little bit nicer.",
+            "image": "scones.jpg"
+        },
+        {
+            "id": "souffles",
+            "title": "Sweet and Savory Souffles",
+            "desc": "Souffles never fail to bring delighted looks from your dinner guests. Learn how to prepare soufflé bases ahead of time and pop them in the oven at the last minute for easy and elegant entertaining. In this class, students will prepare both a Chocolate Soufflé with Chocolate Truffle Centers and an Herbed Goat Cheese Soufflé.",
+            "image": "popup-souffles.jpg"
+        },
+        {
+            "id": "macaroons",
+            "title": "French Macaroons",
+            "desc": "Short on ingedients and long on technique, these addictive little treats, crunchy and chewy at the same time, are simply irresistible. A fully hands-on class, every student will make up their own batch of macaroon batter following the demonstration and practice exercise. We'll teach you proper techniques for making meringues, folding batters and piping out perfectly shaped macarons. Gain the confidence you need to successfully make these on your own.",
+            "image": "BakingArtsMacarons2.jpg"
+        },
+        {
+            "id": "croissant",
+            "title": "Croissant and Pan Au Chocolat",
+            "desc": "Learn how to prepare melt in the mouth all butter croissants and pan au chocolat in the classic French method. Students will make croissant dough from scratch learning to make yeast dough, incorporating butter blocks and folding and turning the dough to create the paper thin layers of butter that make croissants so light and flakey. Forming, shaping and proofing the dough will also be covered. We'll sample freshly baked croissants in class.",
+            "image": "popup-croissants.jpg"
+        },
+        {
+            "id": "ice-cream",
+            "title": "I Scream for Ice Cream w/ Mayen Orido of Way Beyond Cakes by Mayen",
+            "desc": "This class will teach you how to make a heart shaped ice cream cone cake that is struck with an arrow and effectively defies gravity. You'll learn to utilize easy to find materials to recreate the class cake or to use this in other gravity defying designs. We will be use real cake to carve into the heart/twin ice creams and use fondant, gumpaste and ganache to decorate. All materials, lunch and refreshments included.",
+            "image": "icecream.jpg"
+        },
+        {
+            "id": "birthday-code",
+            "title": "Balancing Birthday Cake with Mayen Orido of Way Beyond Cakes by Mayen",
+            "desc": "This is a two-day class that will teach you how to create balancing structures for cakes in many different ways. You will be taught what materials to use, where to find them and how to recreate or tweak the class design to suit your very own balancing ideas in the future. A breakdown of other gravity defying cakes will be included in your class notes as well. We will be using real cake and other edible materials for this class including fondant, gumpaste and ganache. All materials, lunch and refreshments provided",
+            "image": "balance.jpg"
+        },
+        {
+            "id": "easter-cupcakes",
+            "title": "Easter and Spring Cupcakes",
+            "desc": "A sweet and fun little cupcake class with designs for Spring and Easter. Bunnys, chicks and silly rabbits have captured our hearts. Create cute toppers and sugar figurines to sit atop our delicious chocolate cupcakes. Take your decorated cupcakes home with you at the end of class. Bakery boxes provided.",
+            "image": "eastercupcake.jpg"
+        },
+        {
+            "id": "toffee",
+            "title": "Candy Class:Toffee and Nut Brittles",
+            "desc": "In class we're making a thickly poured \"buttercrunch\" toffee layered on both sides with dark chocolate and coated with flaked almonds and then a crispy, salty, rich peanut brittle you won't want to share. We'll cover the proper techniques for successful cooking of non crystalline candies and discuss the merits of how each of the ingredients and the right equipment work together to provide proper taste, texture and appearance. We'll also have a demonstration on a quick tempering method for the dark chocolate used with the toffee. Package your candy to take home with you at the end of class.",
+            "image": "toffee.jpg"
+        },
+        {
+            "id": "bread",
+            "title": "Intro to Bread",
+            "desc": "For the novice bread maker, we'll make both a no-knead bread using a Dutch oven method to make a gorgeous loaf of bread like the one pictured above as well as a traditional kneaded buttermilk bread dough (with numerous possible variations) that can be used for all types of rolls and sandwich bread. You will gain basic experience with yeasted bread ingredients, making dough, kneading, shaping and baking. No experience necessary.",
+            "image": "Bread250.JPG"
+        },
+        {
+            "id": "flowers",
+            "title": "Gum Paste: Cosmos and Filler Flowers",
+            "desc": "A two session class covering the fundamentals of working with gum paste, wired petals, silicone veiners, hand made centers, dusting, taping and finishing techniques. This class is suitable for beginners and all levels interested in learning Cosmos flowers. We will also introduce delicate hand formed filler flowers. All materials supplied for this class.",
+            "image": "bacosmos.jpg"
+        },
+        {
+            "id": "danish",
+            "title": "Danish Pastry",
+            "desc": "One of the most delicious classes we teach, this rich and buttery dough, redolent with cinnamon and cardamom is also one of the most versatile in the kitchen. It can be used to create an endless variety of morning buns, danish pastries and all manner of filled coffee cakes. Make your own pastry from scratch and learn to form pin wheels, triple spirals, snails and other pastries in class. We'll have fresh baked treats for you to sample. This class is fully hands-on.",
+            "image": "danish.jpg"
+        },
+        {
+            "id": "tarts",
+            "title": "Precious Tarts and Pastries",
+            "desc": "Students will learn to make delicate, crisp and lightly sweetened tart dough and techniques to roll out perfectly even pastry to fill individual tart shells. Together we will make glazed fruit tartlets filled with fresh vanilla pastry cream and our favorite coconut truffle tarts with chocolate shavings and fresh raspberries.",
+            "image": "popup-tarts.jpg"
+        },
+        {
+            "id": "wedding-cake",
+            "title": "Wedding Cake Weekend",
+            "desc": "A soft and romantic cake featuring multiple large gum paste feature flowers, buds, ganached cake/sharp edge fondant technique, vertical fondant striping and all the fine finishing techniques. This two-day class is suitable for all levels. All materials, recipes, lunch and refreshments included.",
+            "image": "wedcakeweekend.jpg"
+        },
+        {
+            "id": "pretty-cupcakes",
+            "title": "Pretty Cupcakes",
+            "desc": "Cute floral inspired cupcakes, white chocolate hydrangeas, rose bouquets on chocolate ganache and more. You'll have the chance to use a variety of equipment, silicone molds, clay guns and other tools along with modeling chocolate to create your cupcakes. We'll also show you a quick and inexpensive way to create pretty cupcake wrappers to set off your creations. Take your cupcakes home at the end of class. ",
+            "image": "HydrangeaCupcake.JPG"
+        },
+        {
+            "id": "ganached-cakes",
+            "title": "Intro to Ganached Cakes",
+            "desc": "A one day intensive class featuring ganached cake/sharp edge technique fondant work, standing gum paste figurine with balloon, vertical striping, letters and all the fine finishes. Perfect for those wanting to learn sharp edge technique and fondant skills. Suitable for beginning students. Lunch and all materials provided.",
+            "image": "IMG_0110.jpg"
+        },
+        {
+            "id": "bagels",
+            "title": "Bagels and Soft Pretzels",
+            "desc": "These are the old-fashioned chewy bagels and lye dipped pretzels we used to get from the kosher bakeries in New York when we were kids. Crisp and brown on the outside with a hearty bite inside. We'll make dough from scratch and learn to form, boil and bake bagels and pretzels in class. Delicious! ",
+            "image": "bagelsclass2.jpg"
+        },
+        {
+            "id": "puff",
+            "title": "Puff Pastry",
+            "desc": "Equal parts butter and flour, quick puff pastry is the most luxurious dough in the kitchen. Each student will create their own batch of quick puff pastry to take home, learning how to incorporate butter and repeatedly fold the dough to make thousands of butter layers, as well as create a rustic French apple or blueberry tart with a shiny glaze and cinnamon sugar crusted palmiers cookies. This is beautiful food that will be the perfect ending to your next dinner party. ",
+            "image": "puff2.jpg"
+        },
+        {
+            "id": "cake-dvd-1",
+            "title": "Modeling Chocolate: Wrapped Cakes - Gift Wrapped Presents",
+            "desc": "",
+            "image": "wrapped_cakes_1_dvd_image.png"
+        },
+        {
+            "id": "cake-dvd-2",
+            "title": "Modeling Chocolate: Wrapped Cakes - Extraordinary Stripes",
+            "desc": "",
+            "image": "wrapped_cakes_2_dvd_image.png"
+        }
+    ]
+}
