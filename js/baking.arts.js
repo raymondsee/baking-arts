@@ -78,6 +78,10 @@ jQuery(document).ready(function ($) {
     //Rotate HFork in
     {$Duration: 1200, x: 1, y: 2, $Cols: 2, $Zoom: 11, $Rotate: 1, $Assembly: 2049, $ChessMode: { $Column: 19 }, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Top: $JssorEasing$.$EaseInCubic, $Zoom: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseOutQuad, $Rotate: $JssorEasing$.$EaseInCubic }, $Opacity: 2, $Round: { $Rotate: 0.8} }
     ];
+    
+    var _SlideshowTransitions2 = [
+    {$Duration:1200,$Opacity:2}
+    ];
 
     var options = {
         $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
@@ -90,7 +94,7 @@ jQuery(document).ready(function ($) {
 
         $SlideshowOptions: {                                //[Optional] Options to specify and enable slideshow or not
             $Class: $JssorSlideshowRunner$,                 //[Required] Class to create instance of slideshow
-            $Transitions: _SlideshowTransitions,            //[Required] An array of slideshow transitions to play slideshow
+            $Transitions: _SlideshowTransitions2,            //[Required] An array of slideshow transitions to play slideshow
             $TransitionsOrder: 1,                           //[Optional] The way to choose transition to play slide, 1 Sequence, 0 Random
             $ShowLink: true                                    //[Optional] Whether to bring slide link on top of the slider when slideshow is running, default value is false
         },
