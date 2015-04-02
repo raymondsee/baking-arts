@@ -36,7 +36,7 @@
         <ul class="nav navbar-nav">
           <li><a href="about.html" class="">About Us</a></li>
           <li><a href="classes.html" class="">Classes</a></li>
-          <li><a href="gift-certificate.html" class="">Gift Certificate</a></li>
+          <li><a href="gift-certificate.html" class="selected">Gift Certificate</a></li>
           <li><a href="store.html" class="">Retail Store</a></li>
           <li><a href="books.html" class="">Books & DVD's</a></li>
           <li><a href="contact.html" class="">Contact Us</a></li>
@@ -58,7 +58,7 @@
             <ul class="nav navbar-nav">
                 <li><a href="about.html" class="">About Us</a></li>
                 <li><a href="classes.html" class="">Classes</a></li>
-                <li><a href="gift-certificate.html" class="">Gift Certificate</a></li>
+                <li><a href="gift-certificate.html" class="selected">Gift Certificate</a></li>
                 <li><a href="store.html" class="">Retail Store</a></li>
                 <li><a href="books.html" class="">Books & DVD's</a></li>
                 <li><a href="contact.html" class="">Contact Us</a></li>
@@ -68,14 +68,35 @@
 </div>
 
 <div class="container main-content">
-    <div class="row">
-        <div class="col-xs-12">
-            <div class="banner">
-                <div class="banner-message">
-                    <p>Baking Arts is a cooking school and retail store dedicated to baking, decorating and confectionary arts.</p>
-                    <p>Come visit our new shop at 18 E. 3rd Avenue, in beautiful downtown San Mateo. A world of cake, candy and chocolate supplies await you.</p>
+    <div class="row section-title" id="about-section">
+        <div class="col-sm-12"><h2>Gift Certificates</h2></div>
+    </div>
+
+    <div class="row content">
+        <div class="col-md-12">
+            <p>Gift certificates, sent with a personal message, are available and are perfect for birthdays, showers, weddings or that special someone.</p>
+            <p>Place your order on-line below or contact us for last minute emailed certifcates. </p>
+
+
+            <form method="post" action="https://www.paypal.com/cgi-bin/webscr" target="paypal">
+                <input type="hidden" value="_s-xclick" name="cmd">
+                <input type="hidden" value="2BD7AB6HYWBRU" name="hosted_button_id">
+                <input type="hidden" value="Baking Arts Gift Certificate" name="on0">
+                <div class="form-group">
+                    <label for="certificate">Baking Arts Gift Certificates</label>
+                    <select id="certificate" name="os0" class="form-control" style="width:280px;">
+                        <option value="$80 Gift Certificate">$80 Gift Certificate $80.00 USD</option>
+                        <option value="$90 Gift Certificate">$90 Gift Certificate $90.00 USD</option>
+                        <option value="$100 Gift Certificate">$100 Gift Certificate $100.00 USD</option>
+                        <option value="$150 Gift Certificate">$150 Gift Certificate $150.00 USD</option>
+                        <option value="$200 Gift Certificate">$200 Gift Certificate $200.00 USD</option>
+                        <option value="$300 Gift Certificate">$300 Gift Certificate $300.00 USD</option>
+                    </select>
                 </div>
-            </div>
+                <input type="hidden" value="USD" name="currency_code">
+                <input type="image" border="0" alt="PayPal - The safer, easier way to pay online!" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif">
+                <img width="1" border="0" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" alt="">
+            </form>
         </div>
     </div>
 
@@ -106,7 +127,6 @@
     </div>
 </footer>
 </div>
-
     </body>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
