@@ -258,39 +258,45 @@ img.green-frame {
   border: 5px solid #F2FADF;
   padding: 1px; }
 
-/* line 325, ../css/site.scss */
+/* line 322, ../css/site.scss */
 .modal-dialog.modal-xlg {
   width: 930px; }
-/* line 329, ../css/site.scss */
+/* line 326, ../css/site.scss */
 .modal-dialog .modal-header, .modal-dialog .modal-footer {
   border: none; }
-/* line 333, ../css/site.scss */
+/* line 330, ../css/site.scss */
 .modal-dialog h4.modal-title {
   font-weight: 200; }
-/* line 337, ../css/site.scss */
+/* line 334, ../css/site.scss */
 .modal-dialog .modal-body {
   border-top: 1px solid #c9e696;
   border-bottom: 1px solid #c9e696;
   margin: 0 15px; }
 
-/* line 344, ../css/site.scss */
+/* line 341, ../css/site.scss */
 a {
   color: #78bb02; }
 
-/* line 349, ../css/site.scss */
+/* line 346, ../css/site.scss */
 .image-wrapper img {
   margin: 0 auto;
   margin-bottom: 20px; }
 
-/* line 355, ../css/site.scss */
+/* line 352, ../css/site.scss */
 .btn-success {
   background: #c9e696;
   border-color: #c9e696; }
-  /* line 359, ../css/site.scss */
+  /* line 356, ../css/site.scss */
   .btn-success:hover {
     background: #9fd244;
     border-color: #9fd244; }
 
+/*
+.store-carousel {
+    padding-left: 0;
+    padding-right: 0;
+}
+*/
 /* jssor slider arrow navigator skin 05 css */
 /*
 .jssora05l              (normal)
@@ -300,7 +306,7 @@ a {
 .jssora05ldn            (mousedown)
 .jssora05rdn            (mousedown)
 */
-/* line 374, ../css/site.scss */
+/* line 376, ../css/site.scss */
 .jssora05l, .jssora05r, .jssora05ldn, .jssora05rdn {
   position: absolute;
   cursor: pointer;
@@ -308,27 +314,27 @@ a {
   background: url(../images/a17.png) no-repeat;
   overflow: hidden; }
 
-/* line 382, ../css/site.scss */
+/* line 384, ../css/site.scss */
 .jssora05l {
   background-position: -10px -40px; }
 
-/* line 383, ../css/site.scss */
+/* line 385, ../css/site.scss */
 .jssora05r {
   background-position: -70px -40px; }
 
-/* line 384, ../css/site.scss */
+/* line 386, ../css/site.scss */
 .jssora05l:hover {
   background-position: -130px -40px; }
 
-/* line 385, ../css/site.scss */
+/* line 387, ../css/site.scss */
 .jssora05r:hover {
   background-position: -190px -40px; }
 
-/* line 386, ../css/site.scss */
+/* line 388, ../css/site.scss */
 .jssora05ldn {
   background-position: -250px -40px; }
 
-/* line 387, ../css/site.scss */
+/* line 389, ../css/site.scss */
 .jssora05rdn {
   background-position: -310px -40px; }
 
@@ -340,7 +346,7 @@ a {
 .jssort02 .pav:hover    (active mouseover)
 .jssort02 .pdn          (mousedown)
 */
-/* line 397, ../css/site.scss */
+/* line 399, ../css/site.scss */
 .jssort02 .w {
   position: absolute;
   top: 0px;
@@ -348,7 +354,7 @@ a {
   width: 100%;
   height: 100%; }
 
-/* line 405, ../css/site.scss */
+/* line 407, ../css/site.scss */
 .jssort02 .c {
   position: absolute;
   top: 0px;
@@ -357,7 +363,7 @@ a {
   height: 62px;
   border: none; }
 
-/* line 414, ../css/site.scss */
+/* line 416, ../css/site.scss */
 .jssort02 .p:hover .c, .jssort02 .pav:hover .c, .jssort02 .pav .c {
   background: url(../images/t01.png) center center;
   border-width: 0px;
@@ -366,7 +372,7 @@ a {
   width: 95px;
   height: 62px; }
 
-/* line 423, ../css/site.scss */
+/* line 425, ../css/site.scss */
 .jssort02 .p:hover .c, .jssort02 .pav:hover .c {
   top: 0px;
   left: 0px;
@@ -382,25 +388,25 @@ a {
 .jssorb05 .av:hover     (active mouseover)
 .jssorb05 .dn           (mousedown)
 */
-/* line 440, ../css/site.scss */
+/* line 442, ../css/site.scss */
 .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
   background: url(../images/b05.png) no-repeat;
   overflow: hidden;
   cursor: pointer; }
 
-/* line 446, ../css/site.scss */
+/* line 448, ../css/site.scss */
 .jssorb05 div {
   background-position: -7px -7px; }
 
-/* line 450, ../css/site.scss */
+/* line 452, ../css/site.scss */
 .jssorb05 div:hover, .jssorb05 .av:hover {
   background-position: -37px -7px; }
 
-/* line 454, ../css/site.scss */
+/* line 456, ../css/site.scss */
 .jssorb05 .av {
   background-position: -67px -7px; }
 
-/* line 458, ../css/site.scss */
+/* line 460, ../css/site.scss */
 .jssorb05 .dn, .jssorb05 .dn:hover {
   background-position: -97px -7px; }
 
@@ -413,7 +419,7 @@ a {
 .jssora12ldn            (mousedown)
 .jssora12rdn            (mousedown)
 */
-/* line 470, ../css/site.scss */
+/* line 472, ../css/site.scss */
 .jssora12l, .jssora12r, .jssora12ldn, .jssora12rdn {
   position: absolute;
   cursor: pointer;
@@ -421,27 +427,27 @@ a {
   background: url(../images/a12.png) no-repeat;
   overflow: hidden; }
 
-/* line 478, ../css/site.scss */
+/* line 480, ../css/site.scss */
 .jssora12l {
   background-position: -16px -37px; }
 
-/* line 482, ../css/site.scss */
+/* line 484, ../css/site.scss */
 .jssora12r {
   background-position: -75px -37px; }
 
-/* line 486, ../css/site.scss */
+/* line 488, ../css/site.scss */
 .jssora12l:hover {
   background-position: -136px -37px; }
 
-/* line 490, ../css/site.scss */
+/* line 492, ../css/site.scss */
 .jssora12r:hover {
   background-position: -195px -37px; }
 
-/* line 494, ../css/site.scss */
+/* line 496, ../css/site.scss */
 .jssora12ldn {
   background-position: -256px -37px; }
 
-/* line 498, ../css/site.scss */
+/* line 500, ../css/site.scss */
 .jssora12rdn {
   background-position: -315px -37px; }
 
@@ -449,11 +455,11 @@ a {
 /* No media query since this is the default in Bootstrap */
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  /* line 507, ../css/site.scss */
+  /* line 509, ../css/site.scss */
   .banner {
     background: url(../images/banner_image.png) no-repeat top center;
     height: 375px; }
-    /* line 511, ../css/site.scss */
+    /* line 513, ../css/site.scss */
     .banner .banner-message {
       width: 30%;
       position: relative;
@@ -463,20 +469,27 @@ a {
       background: none;
       opacity: 1; }
 
-  /* line 524, ../css/site.scss */
+  /* line 526, ../css/site.scss */
   footer .copy-right {
     text-align: right; }
 
-  /* line 532, ../css/site.scss */
+  /* line 534, ../css/site.scss */
   .desktop-header nav ul li {
-    font-size: 18px; } }
+    font-size: 18px; }
+
+  /*
+  .store-carousel {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+  */ }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  /* line 545, ../css/site.scss */
+  /* line 550, ../css/site.scss */
   .container {
     width: 960px; }
 
-  /* line 552, ../css/site.scss */
+  /* line 557, ../css/site.scss */
   .desktop-header nav ul li {
     font-size: 20px; } }
 /* Large devices (large desktops, 1200px and up) */
