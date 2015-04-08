@@ -36,50 +36,48 @@ ul.nav.navbar-nav li a:focus, ul.nav.navbar-nav li a:hover, ul.nav.navbar-nav li
   background: #c9e696; }
 
 /* line 36, ../css/site.scss */
-.desktop-header .logo {
-  padding-top: 20px;
-  text-align: center; }
+.desktop-header .logo, .desktop-header .slogan-1, .desktop-header .slogan-2 {
+  display: inline;
+  float: left; }
 /* line 41, ../css/site.scss */
+.desktop-header .logo {
+  width: 20%;
+  text-align: center; }
+/* line 45, ../css/site.scss */
 .desktop-header .slogan-1, .desktop-header .slogan-2 {
-  font-weight: 200;
-  font-size: 20px;
-  vertical-align: middle;
-  padding-top: 70px; }
-/* line 48, ../css/site.scss */
+  width: 40%;
+  padding: 70px 35px 0px 35px;
+  font-size: 20px; }
+/* line 50, ../css/site.scss */
 .desktop-header .slogan-1 {
-  text-align: right;
-  padding-right: 0; }
-/* line 53, ../css/site.scss */
-.desktop-header .slogan-2 {
-  text-align: left;
-  padding-left: 0; }
-/* line 58, ../css/site.scss */
+  text-align: right; }
+/* line 54, ../css/site.scss */
 .desktop-header .nav > li > a:focus, .desktop-header .nav > li > a:hover, .desktop-header .nav > li > a.selected {
   background: #c9e696; }
-/* line 62, ../css/site.scss */
+/* line 58, ../css/site.scss */
 .desktop-header nav {
   margin-top: 45px; }
-  /* line 66, ../css/site.scss */
+  /* line 62, ../css/site.scss */
   .desktop-header nav ul {
     border-top: 2px solid #c9e696;
     border-bottom: 2px solid #c9e696;
     width: 100%;
     padding: 2px 0; }
-    /* line 72, ../css/site.scss */
+    /* line 68, ../css/site.scss */
     .desktop-header nav ul li {
       width: 16.65%;
       font-size: 18px; }
-      /* line 80, ../css/site.scss */
+      /* line 76, ../css/site.scss */
       .desktop-header nav ul li a {
         color: #666;
         padding-left: 0;
         padding-right: 0; }
 
-/* line 90, ../css/site.scss */
+/* line 86, ../css/site.scss */
 .banner {
   background: url(../images/banner_image_old.png) no-repeat top center;
   height: 450px; }
-  /* line 94, ../css/site.scss */
+  /* line 90, ../css/site.scss */
   .banner .banner-message {
     width: 80%;
     position: relative;
@@ -89,196 +87,195 @@ ul.nav.navbar-nav li a:focus, ul.nav.navbar-nav li a:hover, ul.nav.navbar-nav li
     background: #FFF;
     opacity: .8; }
 
-/* line 107, ../css/site.scss */
+/* line 103, ../css/site.scss */
 .section-title h2 {
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 10px 0;
   font-weight: 200; }
 
-/* line 115, ../css/site.scss */
+/* line 111, ../css/site.scss */
 .content {
   padding-bottom: 40px; }
-  /* line 119, ../css/site.scss */
+  /* line 115, ../css/site.scss */
   .content p {
     font-size: 18px; }
-  /* line 123, ../css/site.scss */
+  /* line 119, ../css/site.scss */
   .content .padding-left-none {
     padding-left: 0px !important; }
-  /* line 127, ../css/site.scss */
+  /* line 123, ../css/site.scss */
   .content .padding-right-none {
     padding-right: 0px !important; }
-  /* line 131, ../css/site.scss */
+  /* line 127, ../css/site.scss */
   .content ul {
     padding-left: 20px; }
-    /* line 133, ../css/site.scss */
+    /* line 129, ../css/site.scss */
     .content ul li {
       font-size: 16px; }
-  /* line 138, ../css/site.scss */
+  /* line 134, ../css/site.scss */
   .content .high-light {
     color: black; }
 
-/* line 143, ../css/site.scss */
+/* line 139, ../css/site.scss */
 .row.section {
   margin-bottom: 60px; }
 
-/* line 147, ../css/site.scss */
+/* line 143, ../css/site.scss */
 footer {
   margin-bottom: 200px;
   border-top: 2px solid #c9e696; }
-  /* line 151, ../css/site.scss */
+  /* line 147, ../css/site.scss */
   footer .copy-right {
     padding-top: 20px;
     padding-bottom: 35px;
     text-align: center; }
-  /* line 157, ../css/site.scss */
+  /* line 153, ../css/site.scss */
   footer .footer-section-title {
     font-size: 20px; }
-  /* line 161, ../css/site.scss */
+  /* line 157, ../css/site.scss */
   footer ul {
     margin-top: 20px;
     padding-left: 0; }
-    /* line 164, ../css/site.scss */
+    /* line 160, ../css/site.scss */
     footer ul li {
       list-style: none;
       font-size: 18px; }
-      /* line 168, ../css/site.scss */
+      /* line 164, ../css/site.scss */
       footer ul li a {
         color: #78bb02; }
 
-/* line 175, ../css/site.scss */
+/* line 171, ../css/site.scss */
 .bold {
   font-weight: bold; }
 
-/* line 179, ../css/site.scss */
+/* line 175, ../css/site.scss */
 address {
   font-size: 18px; }
 
-/* line 183, ../css/site.scss */
+/* line 179, ../css/site.scss */
 .light-background {
   background: #FFFEFB; }
 
-/* line 187, ../css/site.scss */
+/* line 183, ../css/site.scss */
 h3 {
   font-weight: normal; }
 
-/* line 191, ../css/site.scss */
+/* line 187, ../css/site.scss */
 .glyphicon.green {
   color: #c9e696; }
 
-/* line 196, ../css/site.scss */
+/* line 192, ../css/site.scss */
 ul.month-selector-wrapper {
   border-top: 2px solid #c9e696;
   border-bottom: 2px solid #c9e696;
   padding: 2px 0;
   float: left;
   width: 100%; }
-  /* line 204, ../css/site.scss */
+  /* line 200, ../css/site.scss */
   ul.month-selector-wrapper li {
     list-style: none;
     float: left;
     width: 33.2%;
     text-align: center;
-    margin-right: 1px;
     cursor: pointer;
     font-size: 20px; }
-    /* line 213, ../css/site.scss */
+    /* line 208, ../css/site.scss */
     ul.month-selector-wrapper li:last-of-type {
       margin-right: 0px; }
-    /* line 217, ../css/site.scss */
+    /* line 212, ../css/site.scss */
     ul.month-selector-wrapper li div {
       padding: 10px 20px;
       display: block; }
-    /* line 222, ../css/site.scss */
+    /* line 217, ../css/site.scss */
     ul.month-selector-wrapper li.active {
       border-top: 2px solid #c9e696; }
-      /* line 225, ../css/site.scss */
+      /* line 220, ../css/site.scss */
       ul.month-selector-wrapper li.active div {
         background: #c9e696; }
 
-/* line 232, ../css/site.scss */
+/* line 227, ../css/site.scss */
 .calendar-wrapper {
   width: 100%; }
-  /* line 235, ../css/site.scss */
+  /* line 230, ../css/site.scss */
   .calendar-wrapper table {
     border: 1px solid #c9e696; }
-    /* line 238, ../css/site.scss */
+    /* line 233, ../css/site.scss */
     .calendar-wrapper table tr td, .calendar-wrapper table tr th {
       padding: 5px;
       border: 1px solid #c9e696;
       width: 14.28%; }
-    /* line 244, ../css/site.scss */
+    /* line 239, ../css/site.scss */
     .calendar-wrapper table tr td {
       height: 100px;
       vertical-align: top;
       font-size: 11px; }
-      /* line 249, ../css/site.scss */
+      /* line 244, ../css/site.scss */
       .calendar-wrapper table tr td .inactive {
         color: #CCC; }
-      /* line 253, ../css/site.scss */
+      /* line 248, ../css/site.scss */
       .calendar-wrapper table tr td span.date {
         font-size: 13px;
         display: block; }
-      /* line 258, ../css/site.scss */
+      /* line 253, ../css/site.scss */
       .calendar-wrapper table tr td a {
         display: block;
         margin-bottom: 3px;
         color: #666; }
-        /* line 263, ../css/site.scss */
+        /* line 258, ../css/site.scss */
         .calendar-wrapper table tr td a .full {
           display: inline;
           background: red;
           color: white;
           padding: 2px; }
-    /* line 274, ../css/site.scss */
+    /* line 269, ../css/site.scss */
     .calendar-wrapper table tr.odd td {
       background: #F2FADF; }
 
-/* line 284, ../css/site.scss */
+/* line 279, ../css/site.scss */
 table tr td, table tr th {
   padding: 5px; }
-/* line 290, ../css/site.scss */
+/* line 285, ../css/site.scss */
 table tr.odd td {
   background: #F2FADF; }
 
-/* line 298, ../css/site.scss */
+/* line 293, ../css/site.scss */
 .text-right img {
   float: right; }
 
-/* line 303, ../css/site.scss */
+/* line 298, ../css/site.scss */
 img.green-frame {
   border: 5px solid #F2FADF;
   padding: 1px; }
 
-/* line 317, ../css/site.scss */
+/* line 312, ../css/site.scss */
 .modal-dialog.modal-xlg {
   width: 930px; }
-/* line 321, ../css/site.scss */
+/* line 316, ../css/site.scss */
 .modal-dialog .modal-header, .modal-dialog .modal-footer {
   border: none; }
-/* line 325, ../css/site.scss */
+/* line 320, ../css/site.scss */
 .modal-dialog h4.modal-title {
   font-weight: 200; }
-/* line 329, ../css/site.scss */
+/* line 324, ../css/site.scss */
 .modal-dialog .modal-body {
   border-top: 1px solid #c9e696;
   border-bottom: 1px solid #c9e696;
   margin: 0 15px; }
 
-/* line 336, ../css/site.scss */
+/* line 331, ../css/site.scss */
 a {
   color: #78bb02; }
 
-/* line 341, ../css/site.scss */
+/* line 336, ../css/site.scss */
 .image-wrapper img {
   margin: 0 auto;
   margin-bottom: 20px; }
 
-/* line 347, ../css/site.scss */
+/* line 342, ../css/site.scss */
 .btn-success {
   background: #c9e696;
   border-color: #c9e696; }
-  /* line 351, ../css/site.scss */
+  /* line 346, ../css/site.scss */
   .btn-success:hover {
     background: #9fd244;
     border-color: #9fd244; }
@@ -292,7 +289,7 @@ a {
 .jssora05ldn            (mousedown)
 .jssora05rdn            (mousedown)
 */
-/* line 366, ../css/site.scss */
+/* line 361, ../css/site.scss */
 .jssora05l, .jssora05r, .jssora05ldn, .jssora05rdn {
   position: absolute;
   cursor: pointer;
@@ -300,27 +297,27 @@ a {
   background: url(../images/a17.png) no-repeat;
   overflow: hidden; }
 
-/* line 374, ../css/site.scss */
+/* line 369, ../css/site.scss */
 .jssora05l {
   background-position: -10px -40px; }
 
-/* line 375, ../css/site.scss */
+/* line 370, ../css/site.scss */
 .jssora05r {
   background-position: -70px -40px; }
 
-/* line 376, ../css/site.scss */
+/* line 371, ../css/site.scss */
 .jssora05l:hover {
   background-position: -130px -40px; }
 
-/* line 377, ../css/site.scss */
+/* line 372, ../css/site.scss */
 .jssora05r:hover {
   background-position: -190px -40px; }
 
-/* line 378, ../css/site.scss */
+/* line 373, ../css/site.scss */
 .jssora05ldn {
   background-position: -250px -40px; }
 
-/* line 379, ../css/site.scss */
+/* line 374, ../css/site.scss */
 .jssora05rdn {
   background-position: -310px -40px; }
 
@@ -332,7 +329,7 @@ a {
 .jssort02 .pav:hover    (active mouseover)
 .jssort02 .pdn          (mousedown)
 */
-/* line 389, ../css/site.scss */
+/* line 384, ../css/site.scss */
 .jssort02 .w {
   position: absolute;
   top: 0px;
@@ -340,7 +337,7 @@ a {
   width: 100%;
   height: 100%; }
 
-/* line 397, ../css/site.scss */
+/* line 392, ../css/site.scss */
 .jssort02 .c {
   position: absolute;
   top: 0px;
@@ -349,7 +346,7 @@ a {
   height: 62px;
   border: none; }
 
-/* line 406, ../css/site.scss */
+/* line 401, ../css/site.scss */
 .jssort02 .p:hover .c, .jssort02 .pav:hover .c, .jssort02 .pav .c {
   background: url(../images/t01.png) center center;
   border-width: 0px;
@@ -358,7 +355,7 @@ a {
   width: 95px;
   height: 62px; }
 
-/* line 415, ../css/site.scss */
+/* line 410, ../css/site.scss */
 .jssort02 .p:hover .c, .jssort02 .pav:hover .c {
   top: 0px;
   left: 0px;
@@ -366,15 +363,86 @@ a {
   height: 64px;
   border: #fff 1px solid; }
 
+/* jssor slider bullet navigator skin 05 css */
+/*
+.jssorb05 div           (normal)
+.jssorb05 div:hover     (normal mouseover)
+.jssorb05 .av           (active)
+.jssorb05 .av:hover     (active mouseover)
+.jssorb05 .dn           (mousedown)
+*/
+/* line 427, ../css/site.scss */
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+  background: url(../images/b05.png) no-repeat;
+  overflow: hidden;
+  cursor: pointer; }
+
+/* line 433, ../css/site.scss */
+.jssorb05 div {
+  background-position: -7px -7px; }
+
+/* line 437, ../css/site.scss */
+.jssorb05 div:hover, .jssorb05 .av:hover {
+  background-position: -37px -7px; }
+
+/* line 441, ../css/site.scss */
+.jssorb05 .av {
+  background-position: -67px -7px; }
+
+/* line 445, ../css/site.scss */
+.jssorb05 .dn, .jssorb05 .dn:hover {
+  background-position: -97px -7px; }
+
+/* jssor slider arrow navigator skin 12 css */
+/*
+.jssora12l              (normal)
+.jssora12r              (normal)
+.jssora12l:hover        (normal mouseover)
+.jssora12r:hover        (normal mouseover)
+.jssora12ldn            (mousedown)
+.jssora12rdn            (mousedown)
+*/
+/* line 457, ../css/site.scss */
+.jssora12l, .jssora12r, .jssora12ldn, .jssora12rdn {
+  position: absolute;
+  cursor: pointer;
+  display: block;
+  background: url(../images/a12.png) no-repeat;
+  overflow: hidden; }
+
+/* line 465, ../css/site.scss */
+.jssora12l {
+  background-position: -16px -37px; }
+
+/* line 469, ../css/site.scss */
+.jssora12r {
+  background-position: -75px -37px; }
+
+/* line 473, ../css/site.scss */
+.jssora12l:hover {
+  background-position: -136px -37px; }
+
+/* line 477, ../css/site.scss */
+.jssora12r:hover {
+  background-position: -195px -37px; }
+
+/* line 481, ../css/site.scss */
+.jssora12ldn {
+  background-position: -256px -37px; }
+
+/* line 485, ../css/site.scss */
+.jssora12rdn {
+  background-position: -315px -37px; }
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  /* line 429, ../css/site.scss */
+  /* line 494, ../css/site.scss */
   .banner {
     background: url(../images/banner_image.png) no-repeat top center;
     height: 375px; }
-    /* line 433, ../css/site.scss */
+    /* line 498, ../css/site.scss */
     .banner .banner-message {
       width: 30%;
       position: relative;
@@ -384,20 +452,20 @@ a {
       background: none;
       opacity: 1; }
 
-  /* line 446, ../css/site.scss */
+  /* line 511, ../css/site.scss */
   footer .copy-right {
     text-align: right; }
 
-  /* line 454, ../css/site.scss */
+  /* line 519, ../css/site.scss */
   .desktop-header nav ul li {
     font-size: 18px; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  /* line 467, ../css/site.scss */
+  /* line 532, ../css/site.scss */
   .container {
     width: 960px; }
 
-  /* line 474, ../css/site.scss */
+  /* line 539, ../css/site.scss */
   .desktop-header nav ul li {
     font-size: 20px; } }
 /* Large devices (large desktops, 1200px and up) */
