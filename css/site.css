@@ -57,7 +57,7 @@ ul.nav.navbar-nav li a:focus, ul.nav.navbar-nav li a:hover, ul.nav.navbar-nav li
 /* line 58, ../css/site.scss */
 .desktop-header .slogan-1, .desktop-header .slogan-2 {
   width: 40%;
-  padding: 70px 35px 0px 35px;
+  padding: 80px 35px 0px 35px;
   font-size: 20px; }
 /* line 63, ../css/site.scss */
 .desktop-header .slogan-1 {
@@ -473,9 +473,12 @@ a {
   footer .copy-right {
     text-align: right; }
 
-  /* line 534, ../css/site.scss */
-  .desktop-header nav ul li {
-    font-size: 18px; }
+  /* line 531, ../css/site.scss */
+  .desktop-header {
+    margin-top: 20px; }
+    /* line 535, ../css/site.scss */
+    .desktop-header nav ul li {
+      font-size: 18px; }
 
   /*
   .store-carousel {
@@ -485,11 +488,11 @@ a {
   */ }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  /* line 550, ../css/site.scss */
+  /* line 551, ../css/site.scss */
   .container {
     width: 960px; }
 
-  /* line 557, ../css/site.scss */
+  /* line 558, ../css/site.scss */
   .desktop-header nav ul li {
     font-size: 20px; } }
 /* Large devices (large desktops, 1200px and up) */
