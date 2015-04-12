@@ -291,6 +291,18 @@ a {
     background: #9fd244;
     border-color: #9fd244; }
 
+/* line 362, ../css/site.scss */
+input.paypal-button {
+  background: #78bb02;
+  border: none;
+  color: white;
+  font-size: 12px;
+  padding: 5px 20px; }
+  /* line 369, ../css/site.scss */
+  input.paypal-button:hover, input.paypal-button:focus, input.paypal-button:active {
+    background: #c9e696;
+    color: #666; }
+
 /*
 .store-carousel {
     padding-left: 0;
@@ -306,7 +318,7 @@ a {
 .jssora05ldn            (mousedown)
 .jssora05rdn            (mousedown)
 */
-/* line 376, ../css/site.scss */
+/* line 389, ../css/site.scss */
 .jssora05l, .jssora05r, .jssora05ldn, .jssora05rdn {
   position: absolute;
   cursor: pointer;
@@ -314,27 +326,27 @@ a {
   background: url(../images/a17.png) no-repeat;
   overflow: hidden; }
 
-/* line 384, ../css/site.scss */
+/* line 397, ../css/site.scss */
 .jssora05l {
   background-position: -10px -40px; }
 
-/* line 385, ../css/site.scss */
+/* line 398, ../css/site.scss */
 .jssora05r {
   background-position: -70px -40px; }
 
-/* line 386, ../css/site.scss */
+/* line 399, ../css/site.scss */
 .jssora05l:hover {
   background-position: -130px -40px; }
 
-/* line 387, ../css/site.scss */
+/* line 400, ../css/site.scss */
 .jssora05r:hover {
   background-position: -190px -40px; }
 
-/* line 388, ../css/site.scss */
+/* line 401, ../css/site.scss */
 .jssora05ldn {
   background-position: -250px -40px; }
 
-/* line 389, ../css/site.scss */
+/* line 402, ../css/site.scss */
 .jssora05rdn {
   background-position: -310px -40px; }
 
@@ -346,7 +358,7 @@ a {
 .jssort02 .pav:hover    (active mouseover)
 .jssort02 .pdn          (mousedown)
 */
-/* line 399, ../css/site.scss */
+/* line 412, ../css/site.scss */
 .jssort02 .w {
   position: absolute;
   top: 0px;
@@ -354,7 +366,7 @@ a {
   width: 100%;
   height: 100%; }
 
-/* line 407, ../css/site.scss */
+/* line 420, ../css/site.scss */
 .jssort02 .c {
   position: absolute;
   top: 0px;
@@ -363,7 +375,7 @@ a {
   height: 62px;
   border: none; }
 
-/* line 416, ../css/site.scss */
+/* line 429, ../css/site.scss */
 .jssort02 .p:hover .c, .jssort02 .pav:hover .c, .jssort02 .pav .c {
   background: url(../images/t01.png) center center;
   border-width: 0px;
@@ -372,7 +384,7 @@ a {
   width: 95px;
   height: 62px; }
 
-/* line 425, ../css/site.scss */
+/* line 438, ../css/site.scss */
 .jssort02 .p:hover .c, .jssort02 .pav:hover .c {
   top: 0px;
   left: 0px;
@@ -388,25 +400,25 @@ a {
 .jssorb05 .av:hover     (active mouseover)
 .jssorb05 .dn           (mousedown)
 */
-/* line 442, ../css/site.scss */
+/* line 455, ../css/site.scss */
 .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
   background: url(../images/b05.png) no-repeat;
   overflow: hidden;
   cursor: pointer; }
 
-/* line 448, ../css/site.scss */
+/* line 461, ../css/site.scss */
 .jssorb05 div {
   background-position: -7px -7px; }
 
-/* line 452, ../css/site.scss */
+/* line 465, ../css/site.scss */
 .jssorb05 div:hover, .jssorb05 .av:hover {
   background-position: -37px -7px; }
 
-/* line 456, ../css/site.scss */
+/* line 469, ../css/site.scss */
 .jssorb05 .av {
   background-position: -67px -7px; }
 
-/* line 460, ../css/site.scss */
+/* line 473, ../css/site.scss */
 .jssorb05 .dn, .jssorb05 .dn:hover {
   background-position: -97px -7px; }
 
@@ -419,7 +431,7 @@ a {
 .jssora12ldn            (mousedown)
 .jssora12rdn            (mousedown)
 */
-/* line 472, ../css/site.scss */
+/* line 485, ../css/site.scss */
 .jssora12l, .jssora12r, .jssora12ldn, .jssora12rdn {
   position: absolute;
   cursor: pointer;
@@ -427,27 +439,27 @@ a {
   background: url(../images/a12.png) no-repeat;
   overflow: hidden; }
 
-/* line 480, ../css/site.scss */
+/* line 493, ../css/site.scss */
 .jssora12l {
   background-position: -16px -37px; }
 
-/* line 484, ../css/site.scss */
+/* line 497, ../css/site.scss */
 .jssora12r {
   background-position: -75px -37px; }
 
-/* line 488, ../css/site.scss */
+/* line 501, ../css/site.scss */
 .jssora12l:hover {
   background-position: -136px -37px; }
 
-/* line 492, ../css/site.scss */
+/* line 505, ../css/site.scss */
 .jssora12r:hover {
   background-position: -195px -37px; }
 
-/* line 496, ../css/site.scss */
+/* line 509, ../css/site.scss */
 .jssora12ldn {
   background-position: -256px -37px; }
 
-/* line 500, ../css/site.scss */
+/* line 513, ../css/site.scss */
 .jssora12rdn {
   background-position: -315px -37px; }
 
@@ -455,11 +467,11 @@ a {
 /* No media query since this is the default in Bootstrap */
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  /* line 509, ../css/site.scss */
+  /* line 522, ../css/site.scss */
   .banner {
     background: url(../images/banner_image.png) no-repeat top center;
     height: 375px; }
-    /* line 513, ../css/site.scss */
+    /* line 526, ../css/site.scss */
     .banner .banner-message {
       width: 30%;
       position: relative;
@@ -469,14 +481,14 @@ a {
       background: none;
       opacity: 1; }
 
-  /* line 526, ../css/site.scss */
+  /* line 539, ../css/site.scss */
   footer .copy-right {
     text-align: right; }
 
-  /* line 531, ../css/site.scss */
+  /* line 544, ../css/site.scss */
   .desktop-header {
     margin-top: 20px; }
-    /* line 535, ../css/site.scss */
+    /* line 548, ../css/site.scss */
     .desktop-header nav ul li {
       font-size: 18px; }
 
@@ -488,11 +500,11 @@ a {
   */ }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  /* line 551, ../css/site.scss */
+  /* line 564, ../css/site.scss */
   .container {
     width: 960px; }
 
-  /* line 558, ../css/site.scss */
+  /* line 571, ../css/site.scss */
   .desktop-header nav ul li {
     font-size: 20px; } }
 /* Large devices (large desktops, 1200px and up) */
