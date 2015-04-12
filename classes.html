@@ -39,7 +39,6 @@
           <li><a href="store.html" class="">Retail Store</a></li>
           <li><a href="gift-certificate.html" class="">Gift Certificates</a></li>
           <li><a href="books.html" class="">Books & DVD's</a></li>
-          <li><a href="contact.html" class="">Contact Us</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
@@ -61,7 +60,6 @@
                 <li><a href="store.html" class="">Retail Store</a></li>
                 <li><a href="gift-certificate.html" class="">Gift Certificates</a></li>
                 <li><a href="books.html" class="">Books & DVD's</a></li>
-                <li><a href="contact.html" class="">Contact Us</a></li>
             </ul>
         </nav>
     </div>
@@ -79,7 +77,41 @@
             <p>In addition to our calendar classes, Baking Arts is available for private parties and classes from 1 to 10 people. We also offer gift certificates that make a terrific gift for that special someone.</p>
         </div>
         <div class="col-md-6 image-wrapper">
-            <img class="img-responsive" src="images/classes.jpg" alt="Baking Arts cooking classes" />
+            <!-- Jssor Slider Begin -->
+            <!-- You can move inline styles to css file or css block. -->
+            <div id="slider3_container" style="position: relative; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden; ">
+
+            <!-- Loading Screen -->
+            <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+                <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+                    background-color: #000000; top: 0px; left: 0px;width: 100%;height:100%;">
+                </div>
+                <div style="position: absolute; display: block; background: url(../images/loading.gif) no-repeat center center;
+                    top: 0px; left: 0px;width: 100%;height:100%;">
+                </div>
+                </div>
+
+                <!-- Slides Container -->
+                <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 300px; overflow: hidden;">
+                    <div>
+                        <img u="image" src="images/classes_images/classes_image1.png" />
+                    </div>
+                    <div>
+                        <img u="image" src="images/classes_images/classes_image2.png" />
+                    </div>
+                    <div>
+                        <img u="image" src="images/classes_images/classes_image3.png" />
+                    </div>
+                </div>
+
+
+                <!-- Arrow Left -->
+                <span u="arrowleft" class="jssora12l" style="width: 30px; height: 46px; top: 123px; left: 0px;">
+                </span>
+                <!-- Arrow Right -->
+                <span u="arrowright" class="jssora12r" style="width: 30px; height: 46px; top: 123px; right: 0px">
+                </span>
+            </div>
         </div>
 
         <div class="col-xs-12">
@@ -546,6 +578,34 @@
     <p><a href="#" data-toggle="modal" data-target="#policies">Policies</a></p>
 
     <footer>
+    <div class="row section-title" id="contact-section">
+        <div class="col-md-12"><h2>Contact Us</h2></div>
+    </div>
+
+    <div class="row content">
+        <div class="col-md-6">
+            <p>We are more than happy to discuss with you any questions you may have regarding classes. Feel free to contact us at any of the ways below.</p>
+            <p class="bold">Address</p>
+            <address>
+                Baking Arts<br/>
+                18 E. 3rd Avenue<br/>
+                San Mateo, CA 94401
+            </address>
+
+            <p class="bold">Phone</p>
+            <p>415.706.7112</p>
+
+            <p class="bold">Email</p>
+            <p><a href="mailto:info@bakingarts.net">info@bakingarts.net</a></p>
+        </div>
+        <div class="col-md-6 text-right">
+            <!--
+            <img class="img-responsive" src="images/contact_us_image.png" alt="Baking Arts cooking classes" />
+            -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.6563289867004!2d-122.32525599999997!3d37.56315999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f9e71cc1c82b7%3A0x96573affd28a6baf!2s18+E+3rd+Ave%2C+San+Mateo%2C+CA+94401!5e0!3m2!1sen!2sus!4v1426784775804" width="100%" height="400" frameborder="0" style="border:0"></iframe>
+
+        </div>
+    </div>
     <div class="row">
         <div class="col-md-12 copy-right">
             <div>&copy; 2015 Baking Arts. All Rights Reserved.</div>

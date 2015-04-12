@@ -57,7 +57,7 @@ ul.nav.navbar-nav li a:focus, ul.nav.navbar-nav li a:hover, ul.nav.navbar-nav li
 /* line 58, ../css/site.scss */
 .desktop-header .slogan-1, .desktop-header .slogan-2 {
   width: 40%;
-  padding: 80px 35px 0px 35px;
+  padding: 40px 35px 0px 35px;
   font-size: 20px; }
 /* line 63, ../css/site.scss */
 .desktop-header .slogan-1 {
@@ -76,7 +76,7 @@ ul.nav.navbar-nav li a:focus, ul.nav.navbar-nav li a:hover, ul.nav.navbar-nav li
     padding: 2px 0; }
     /* line 81, ../css/site.scss */
     .desktop-header nav ul li {
-      width: 16.65%;
+      width: 20%;
       font-size: 18px; }
       /* line 89, ../css/site.scss */
       .desktop-header nav ul li a {
