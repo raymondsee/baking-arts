@@ -133,56 +133,57 @@ ul.nav.navbar-nav li a:focus, ul.nav.navbar-nav li a:hover, ul.nav.navbar-nav li
 
 /* line 156, ../css/site.scss */
 footer {
-  margin-bottom: 200px;
+  padding-top: 60px;
+  margin-bottom: 50px;
   border-top: 2px solid #c9e696; }
-  /* line 160, ../css/site.scss */
+  /* line 161, ../css/site.scss */
   footer .copy-right {
     padding-top: 20px;
     padding-bottom: 35px;
     text-align: center; }
-  /* line 166, ../css/site.scss */
+  /* line 167, ../css/site.scss */
   footer .footer-section-title {
     font-size: 20px; }
-  /* line 170, ../css/site.scss */
+  /* line 171, ../css/site.scss */
   footer ul {
     margin-top: 20px;
     padding-left: 0; }
-    /* line 173, ../css/site.scss */
+    /* line 174, ../css/site.scss */
     footer ul li {
       list-style: none;
       font-size: 18px; }
-      /* line 177, ../css/site.scss */
+      /* line 178, ../css/site.scss */
       footer ul li a {
         color: #78bb02; }
 
-/* line 184, ../css/site.scss */
+/* line 185, ../css/site.scss */
 .bold {
   font-weight: bold; }
 
-/* line 188, ../css/site.scss */
+/* line 189, ../css/site.scss */
 address {
   font-size: 18px; }
 
-/* line 192, ../css/site.scss */
+/* line 193, ../css/site.scss */
 .light-background {
   background: #FFFEFB; }
 
-/* line 196, ../css/site.scss */
+/* line 197, ../css/site.scss */
 h3 {
   font-weight: normal; }
 
-/* line 200, ../css/site.scss */
+/* line 201, ../css/site.scss */
 .glyphicon.green {
   color: #c9e696; }
 
-/* line 205, ../css/site.scss */
+/* line 206, ../css/site.scss */
 ul.month-selector-wrapper {
   border-top: 2px solid #c9e696;
   border-bottom: 2px solid #c9e696;
   padding: 2px 0;
   float: left;
   width: 100%; }
-  /* line 213, ../css/site.scss */
+  /* line 214, ../css/site.scss */
   ul.month-selector-wrapper li {
     list-style: none;
     float: left;
@@ -190,115 +191,115 @@ ul.month-selector-wrapper {
     text-align: center;
     cursor: pointer;
     font-size: 20px; }
-    /* line 221, ../css/site.scss */
+    /* line 222, ../css/site.scss */
     ul.month-selector-wrapper li:last-of-type {
       margin-right: 0px; }
-    /* line 225, ../css/site.scss */
+    /* line 226, ../css/site.scss */
     ul.month-selector-wrapper li div {
       padding: 10px 20px;
       display: block; }
-    /* line 230, ../css/site.scss */
+    /* line 231, ../css/site.scss */
     ul.month-selector-wrapper li.active {
       border-top: 2px solid #c9e696; }
-      /* line 233, ../css/site.scss */
+      /* line 234, ../css/site.scss */
       ul.month-selector-wrapper li.active div {
         background: #c9e696; }
 
-/* line 240, ../css/site.scss */
+/* line 241, ../css/site.scss */
 .calendar-wrapper {
   width: 100%; }
-  /* line 243, ../css/site.scss */
+  /* line 244, ../css/site.scss */
   .calendar-wrapper table {
     border: 1px solid #c9e696; }
-    /* line 246, ../css/site.scss */
+    /* line 247, ../css/site.scss */
     .calendar-wrapper table tr td, .calendar-wrapper table tr th {
       padding: 5px;
       border: 1px solid #c9e696;
       width: 14.28%; }
-    /* line 252, ../css/site.scss */
+    /* line 253, ../css/site.scss */
     .calendar-wrapper table tr td {
       height: 100px;
       vertical-align: top;
       font-size: 11px; }
-      /* line 257, ../css/site.scss */
+      /* line 258, ../css/site.scss */
       .calendar-wrapper table tr td .inactive {
         color: #CCC; }
-      /* line 261, ../css/site.scss */
+      /* line 262, ../css/site.scss */
       .calendar-wrapper table tr td span.date {
         font-size: 13px;
         display: block; }
-      /* line 266, ../css/site.scss */
+      /* line 267, ../css/site.scss */
       .calendar-wrapper table tr td a {
         display: block;
         margin-bottom: 3px;
         color: #666; }
-        /* line 271, ../css/site.scss */
+        /* line 272, ../css/site.scss */
         .calendar-wrapper table tr td a .full {
           display: inline;
           background: red;
           color: white;
           padding: 2px; }
-    /* line 282, ../css/site.scss */
+    /* line 283, ../css/site.scss */
     .calendar-wrapper table tr.odd td {
       background: #F2FADF; }
 
-/* line 292, ../css/site.scss */
+/* line 293, ../css/site.scss */
 table tr td, table tr th {
   padding: 5px; }
-/* line 298, ../css/site.scss */
+/* line 299, ../css/site.scss */
 table tr.odd td {
   background: #F2FADF; }
 
-/* line 306, ../css/site.scss */
+/* line 307, ../css/site.scss */
 .text-right img {
   float: right; }
 
-/* line 311, ../css/site.scss */
+/* line 312, ../css/site.scss */
 img.green-frame {
   border: 5px solid #F2FADF;
   padding: 1px; }
 
-/* line 322, ../css/site.scss */
+/* line 323, ../css/site.scss */
 .modal-dialog.modal-xlg {
   width: 930px; }
-/* line 326, ../css/site.scss */
+/* line 327, ../css/site.scss */
 .modal-dialog .modal-header, .modal-dialog .modal-footer {
   border: none; }
-/* line 330, ../css/site.scss */
+/* line 331, ../css/site.scss */
 .modal-dialog h4.modal-title {
   font-weight: 200; }
-/* line 334, ../css/site.scss */
+/* line 335, ../css/site.scss */
 .modal-dialog .modal-body {
   border-top: 1px solid #c9e696;
   border-bottom: 1px solid #c9e696;
   margin: 0 15px; }
 
-/* line 341, ../css/site.scss */
+/* line 342, ../css/site.scss */
 a {
   color: #78bb02; }
 
-/* line 346, ../css/site.scss */
+/* line 347, ../css/site.scss */
 .image-wrapper img {
   margin: 0 auto;
   margin-bottom: 20px; }
 
-/* line 352, ../css/site.scss */
+/* line 353, ../css/site.scss */
 .btn-success {
   background: #c9e696;
   border-color: #c9e696; }
-  /* line 356, ../css/site.scss */
+  /* line 357, ../css/site.scss */
   .btn-success:hover {
     background: #9fd244;
     border-color: #9fd244; }
 
-/* line 362, ../css/site.scss */
+/* line 363, ../css/site.scss */
 input.paypal-button {
   background: #78bb02;
   border: none;
   color: white;
   font-size: 12px;
   padding: 5px 20px; }
-  /* line 369, ../css/site.scss */
+  /* line 370, ../css/site.scss */
   input.paypal-button:hover, input.paypal-button:focus, input.paypal-button:active {
     background: #c9e696;
     color: #666; }
@@ -318,7 +319,7 @@ input.paypal-button {
 .jssora05ldn            (mousedown)
 .jssora05rdn            (mousedown)
 */
-/* line 389, ../css/site.scss */
+/* line 390, ../css/site.scss */
 .jssora05l, .jssora05r, .jssora05ldn, .jssora05rdn {
   position: absolute;
   cursor: pointer;
@@ -326,27 +327,27 @@ input.paypal-button {
   background: url(../images/a17.png) no-repeat;
   overflow: hidden; }
 
-/* line 397, ../css/site.scss */
+/* line 398, ../css/site.scss */
 .jssora05l {
   background-position: -10px -40px; }
 
-/* line 398, ../css/site.scss */
+/* line 399, ../css/site.scss */
 .jssora05r {
   background-position: -70px -40px; }
 
-/* line 399, ../css/site.scss */
+/* line 400, ../css/site.scss */
 .jssora05l:hover {
   background-position: -130px -40px; }
 
-/* line 400, ../css/site.scss */
+/* line 401, ../css/site.scss */
 .jssora05r:hover {
   background-position: -190px -40px; }
 
-/* line 401, ../css/site.scss */
+/* line 402, ../css/site.scss */
 .jssora05ldn {
   background-position: -250px -40px; }
 
-/* line 402, ../css/site.scss */
+/* line 403, ../css/site.scss */
 .jssora05rdn {
   background-position: -310px -40px; }
 
@@ -358,7 +359,7 @@ input.paypal-button {
 .jssort02 .pav:hover    (active mouseover)
 .jssort02 .pdn          (mousedown)
 */
-/* line 412, ../css/site.scss */
+/* line 413, ../css/site.scss */
 .jssort02 .w {
   position: absolute;
   top: 0px;
@@ -366,7 +367,7 @@ input.paypal-button {
   width: 100%;
   height: 100%; }
 
-/* line 420, ../css/site.scss */
+/* line 421, ../css/site.scss */
 .jssort02 .c {
   position: absolute;
   top: 0px;
@@ -375,7 +376,7 @@ input.paypal-button {
   height: 62px;
   border: none; }
 
-/* line 429, ../css/site.scss */
+/* line 430, ../css/site.scss */
 .jssort02 .p:hover .c, .jssort02 .pav:hover .c, .jssort02 .pav .c {
   background: url(../images/t01.png) center center;
   border-width: 0px;
@@ -384,7 +385,7 @@ input.paypal-button {
   width: 95px;
   height: 62px; }
 
-/* line 438, ../css/site.scss */
+/* line 439, ../css/site.scss */
 .jssort02 .p:hover .c, .jssort02 .pav:hover .c {
   top: 0px;
   left: 0px;
@@ -400,25 +401,25 @@ input.paypal-button {
 .jssorb05 .av:hover     (active mouseover)
 .jssorb05 .dn           (mousedown)
 */
-/* line 455, ../css/site.scss */
+/* line 456, ../css/site.scss */
 .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
   background: url(../images/b05.png) no-repeat;
   overflow: hidden;
   cursor: pointer; }
 
-/* line 461, ../css/site.scss */
+/* line 462, ../css/site.scss */
 .jssorb05 div {
   background-position: -7px -7px; }
 
-/* line 465, ../css/site.scss */
+/* line 466, ../css/site.scss */
 .jssorb05 div:hover, .jssorb05 .av:hover {
   background-position: -37px -7px; }
 
-/* line 469, ../css/site.scss */
+/* line 470, ../css/site.scss */
 .jssorb05 .av {
   background-position: -67px -7px; }
 
-/* line 473, ../css/site.scss */
+/* line 474, ../css/site.scss */
 .jssorb05 .dn, .jssorb05 .dn:hover {
   background-position: -97px -7px; }
 
@@ -431,7 +432,7 @@ input.paypal-button {
 .jssora12ldn            (mousedown)
 .jssora12rdn            (mousedown)
 */
-/* line 485, ../css/site.scss */
+/* line 486, ../css/site.scss */
 .jssora12l, .jssora12r, .jssora12ldn, .jssora12rdn {
   position: absolute;
   cursor: pointer;
@@ -439,27 +440,27 @@ input.paypal-button {
   background: url(../images/a12.png) no-repeat;
   overflow: hidden; }
 
-/* line 493, ../css/site.scss */
+/* line 494, ../css/site.scss */
 .jssora12l {
   background-position: -16px -37px; }
 
-/* line 497, ../css/site.scss */
+/* line 498, ../css/site.scss */
 .jssora12r {
   background-position: -75px -37px; }
 
-/* line 501, ../css/site.scss */
+/* line 502, ../css/site.scss */
 .jssora12l:hover {
   background-position: -136px -37px; }
 
-/* line 505, ../css/site.scss */
+/* line 506, ../css/site.scss */
 .jssora12r:hover {
   background-position: -195px -37px; }
 
-/* line 509, ../css/site.scss */
+/* line 510, ../css/site.scss */
 .jssora12ldn {
   background-position: -256px -37px; }
 
-/* line 513, ../css/site.scss */
+/* line 514, ../css/site.scss */
 .jssora12rdn {
   background-position: -315px -37px; }
 
@@ -467,11 +468,11 @@ input.paypal-button {
 /* No media query since this is the default in Bootstrap */
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  /* line 522, ../css/site.scss */
+  /* line 523, ../css/site.scss */
   .banner {
     background: url(../images/banner_image.png) no-repeat top center;
     height: 375px; }
-    /* line 526, ../css/site.scss */
+    /* line 527, ../css/site.scss */
     .banner .banner-message {
       width: 30%;
       position: relative;
@@ -481,14 +482,14 @@ input.paypal-button {
       background: none;
       opacity: 1; }
 
-  /* line 539, ../css/site.scss */
+  /* line 540, ../css/site.scss */
   footer .copy-right {
-    text-align: right; }
+    text-align: left; }
 
-  /* line 544, ../css/site.scss */
+  /* line 545, ../css/site.scss */
   .desktop-header {
     margin-top: 20px; }
-    /* line 548, ../css/site.scss */
+    /* line 549, ../css/site.scss */
     .desktop-header nav ul li {
       font-size: 18px; }
 
@@ -500,11 +501,11 @@ input.paypal-button {
   */ }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  /* line 564, ../css/site.scss */
+  /* line 565, ../css/site.scss */
   .container {
     width: 960px; }
 
-  /* line 571, ../css/site.scss */
+  /* line 572, ../css/site.scss */
   .desktop-header nav ul li {
     font-size: 20px; } }
 /* Large devices (large desktops, 1200px and up) */
