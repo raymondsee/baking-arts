@@ -302,7 +302,7 @@ var populateModal = function(modal, className, classes) {
         if (classObj.image!==null && classObj.image!=="") {
             modal.find('.modal-body .image-wrapper').html('<img class="img-responsive" src="'+ imageDir + classObj.image +'" alt="'+ classObj.title +'" />');
         } else {
-            modal.find('.modal-body .image-wrapper').html();
+            modal.find('.modal-body .image-wrapper').html('<img src="images/modal_ba_logo.png" class="no-image">');
         }
     }
 }
