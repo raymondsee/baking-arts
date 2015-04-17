@@ -483,9 +483,8 @@ input.paypal-button {
     /* line 542, ../css/site.scss */
     .banner .banner-message {
       width: 40%;
-      height: 100%;
       float: right;
-      padding: 20px 15px;
+      padding: 30px 25px;
       background: white;
       opacity: .5; }
 
